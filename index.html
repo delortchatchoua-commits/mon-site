@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pratique — Page sémantique</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Nom du projet — Page d'exemple</h1>
+      <p class="tagline">Une page démontrant les éléments sémantiques et le style CSS séparé.</p>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navigation principale">
+    <div class="container">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#article">Article</a></li>
+        <li><a href="#aside">Sidebar</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="site-main container" id="accueil">
+    <article class="content" id="article">
+      <h2>Article principal</h2>
+      <p>
+        Ceci est le contenu principal. Utilisez l’élément &lt;article&gt; pour un bloc de contenu autonome.
+        Structurez votre texte avec des titres, paragraphes et listes.
+      </p>
+      <section>
+        <h3>Section de démonstration</h3>
+        <p>Exemple de section interne à l'article.</p>
+      </section>
+    </article>
+
+    <aside class="sidebar" id="aside">
+      <h3>Sidebar</h3>
+      <p>Liens utiles, résumés ou widgets peuvent être placés ici.</p>
+      <ul>
+        <li><a href="#">Ressource 1</a></li>
+        <li><a href="#">Ressource 2</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <p>&copy; 2025 — Exemple d’un site publié sur GitHub Pages.</p>
+      <p>Contact :<a href="delortchatchoua@gmail.com">mon email</a></p>
+    </div>
+  </footer>
+</body>
+</html>
